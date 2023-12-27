@@ -19,5 +19,6 @@ function useLockFn<P extends any[] = any[], V = any>(fn: (...args: P) => Promise
     [fn],
   );
 }
+// ;
 
 export default useLockFn;
